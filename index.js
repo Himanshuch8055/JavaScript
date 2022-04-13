@@ -243,24 +243,88 @@ console.log("End of ladder");
 // sel = document.querySelectorAll(".container");
 // console.log(sel);
 
-function clicked() {
-  console.log("The button was clicked");
-}
-window.onload = function () {
-  console.log("The document was loaded");
-};
+// function clicked() {
+//   console.log("The button was clicked");
+// }
+// window.onload = function () {
+//   console.log("The document was loaded");
+// };
 
 // Events in JavaScript
-firstcontainer.addEventListener("click", function () {
-  document.querySelectorAll(".container")[1].innerHTML =
-    "<b> We have clicked</b>";
-  console.log("Clicked on Container");
-});
+// firstcontainer.addEventListener("click", function () {
+// document.querySelectorAll(".container")[1].innerHTML =
+//   "<b> We have clicked</b>";
+//   console.log("Clicked on Container");
+// });
 
-firstcontainer.addEventListener("mouseover", function () {
-  console.log("Mouse on Container");
-});
+// firstcontainer.addEventListener("mouseover", function () {
+//   console.log("Mouse on Container");
+// });
 
-firstcontainer.addEventListener("mouseout", function () {
-  console.log("Mouse out of Container");
-});
+// firstcontainer.addEventListener("mouseout", function () {
+//   console.log("Mouse out of Container");
+// });
+
+// firstcontainer.addEventListener("mouseup", function () {
+//   console.log("Mouse up when clicked on Container");
+// });
+
+// firstcontainer.addEventListener("mousedown", function () {
+//   console.log("Mouse Down when clicked on Container");
+// });
+
+// let prevHTML = document.querySelectorAll(".container")[1].innerHTML;
+// firstcontainer.addEventListener("mouseup", function () {
+//   document.querySelectorAll(".container")[1].innerHTML = prevHTML;
+//   console.log("Mouse up when clicked on Container");
+// });
+
+// firstcontainer.addEventListener("mousedown", function () {
+//   document.querySelectorAll(".container")[1].innerHTML =
+//     "<b> We have clicked</b>";
+//   console.log("Mouse Down when clicked on Container");
+// });
+
+// Arrow Functions
+// function summ(a, b){
+//     return a+b;
+// }
+// summ = (a,b)=>{
+//   return a+b;
+// }
+
+// logkaro = () => {
+//   console.log("I am your log");
+// };
+// logKaro = () => {
+//   document.querySelectorAll(".container")[1].innerHTML =
+//     "<b> Set interval fired</b>";
+//   console.log("I am your log");
+// };
+// SetTimeout and setinterval
+// setTimeout(logKaro, 2000);
+// setInterval(logKaro, 2000);
+
+// SetTimeout and setinterval
+// clr = setTimeout(logKaro, 5000);
+// clr = setInterval(logKaro, 2000);
+// use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
+
+// JavaScript localStorage
+// localStorage.setItem('name', 'harry')
+// localStorage
+// localStorage.getItem('name')
+// localStorage.removeItem('name')
+// localStorage.clear();
+
+// Json
+// obj = {name: "harry", length: 1, a: {this: 'tha"t'}}
+// jso = JSON.stringify(obj);
+// console.log(typeof jso)
+// console.log(jso)
+// parsed = JSON.parse(`{"name":"harry","length":1,"a":{"this":"that"}}`)
+// console.log(parsed);
+
+// Template literals - Backticks
+// a = 34;
+// console.log(`this is my ${a}`);
