@@ -13,3 +13,16 @@ console.log(newString.length);
 let secondName = "Himanshu";
 secondName = secondName.toUpperCase();
 console.log(secondName);
+
+// tolowercase()
+
+let thirdName = "HIMANSHU";
+thirdName = thirdName.toLowerCase();
+console.log(thirdName);
+
+// slice()
+
+let secondString = secondName.slice(1, 4);
+let thirdString = secondName.slice(4);
+console.log(secondString);
+console.log(thirdString);
